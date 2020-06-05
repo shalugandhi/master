@@ -1,8 +1,11 @@
 .theme-color{
-  color:#FF9030;
+  color:#FF9030; /*theme color*/
 }
 .navbar {
   box-shadow: 0 5px 7px -10px rgba(0,0,0,0.6);
+}
+.main-sidebar{
+  background:#fff!important;
 }
 .right_menu .btn-secondary{
 color: #767676;
@@ -34,7 +37,7 @@ box-shadow: 0 3px 6px rgba(0,0,0,.16),0 0px 6px rgba(0,0,0,.23)!important;
   font-size: 20px;
 }
 .apps i{
-  color: #ff9030;
+  color: #ff9030; /*theme color*/
 }
 .navbar-expand .navbar-nav.apps .nav-link{
   padding-right: 0.5rem!important;
@@ -50,7 +53,7 @@ box-shadow: 0 3px 6px rgba(0,0,0,.16),0 0px 6px rgba(0,0,0,.23)!important;
   width: 100%;
 }
 .main-footer a{
-  color:#ff9030;
+  color:#ff9030; /*theme color*/
 }
 .w_main .navbar{
   height: 60px;
@@ -59,11 +62,11 @@ box-shadow: 0 3px 6px rgba(0,0,0,.16),0 0px 6px rgba(0,0,0,.23)!important;
 	width: 55px;
 }
 .s_img path, .s_img circle,.s_img rect,.s_img polygon{
-	fill:#FF9030;
+	fill:#FF9030; /*theme color*/
 }
 
 .form-control:focus, .custom-file-input:focus~.custom-file-label{
-  border: 1px solid #FF9030!important;
+  border: 1px solid #FF9030!important; /*theme color*/
 }
 .social-auth-links {
    margin: 0 0!important; 
@@ -73,11 +76,11 @@ box-shadow: 0 3px 6px rgba(0,0,0,.16),0 0px 6px rgba(0,0,0,.23)!important;
   color:#666;
 }
 .btn-main {
-  background: #ff9030;
+  background: #ff9030; /*theme color*/
   color: #fff;
 }
 .btn-main:hover{
-  background: #ff8317;
+  background: #ff8317; /*theme color*/
   color: #fff;
 }
 .login-box .btn, .login-card-body, .login-card-body .form-control{
@@ -87,11 +90,40 @@ box-shadow: 0 3px 6px rgba(0,0,0,.16),0 0px 6px rgba(0,0,0,.23)!important;
   box-shadow: 0 0.2rem 0.7rem rgba(0,0,0,.175)!important;
 }
 .login-box .form-control:focus{
-  border: 1px solid #FF9030!important;
+  border: 1px solid #FF9030!important; /*theme color*/
 }
 .l_icon{
   position: absolute;
   right: 10px;
+}
+.user-panel .info a{
+  color: #212121;
+}
+.brand-text{
+  color:#000!important;
+}
+.nav-pills .nav-link:not(.active):hover{
+  color:#FF9030; /*theme color*/
+}
+.nav-pills .nav-link:not(.active):hover .nav_svg path, .nav-pills .nav-link:not(.active):hover .nav_svg circle, .nav-pills .nav-link:not(.active):hover .nav_svg rect, .nav-pills .nav-link:not(.active):hover .nav_svg polygon{
+  fill:#FF9030!important; /*theme color*/
+}
+.report_svg path{
+  fill:#6c757d;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #ffffff;
+  background-color: #FF9030; /*theme color*/
+}
+.nav-pills .nav-link.active .nav_svg path, .nav-pills .nav-link.active .nav_svg circle, .nav-pills .nav-link.active .nav_svg rect, .nav-pills .nav-link.active .nav_svg polygon{
+  fill:#fff;
+}
+.nav-pills .nav-link{
+  border-radius: 0!important;
+}
+.sidebar{
+  padding-left:0;
+  padding-right: 0;
 }
 @media(min-width: 992px){
 .sidebar-mini.sidebar-collapse .main-sidebar, .sidebar-mini.sidebar-collapse .main-sidebar::before{
@@ -115,7 +147,7 @@ box-shadow: 0 3px 6px rgba(0,0,0,.16),0 0px 6px rgba(0,0,0,.23)!important;
   }
 }
 @media(max-width: 675px){
- .brand .brand-text {
+ .brand_sm {
   display: none;
  }
 }
