@@ -125,6 +125,43 @@ box-shadow: 0 3px 6px rgba(0,0,0,.16),0 0px 6px rgba(0,0,0,.23)!important;
   padding-left:0;
   padding-right: 0;
 }
+.form-control{
+  border-radius: 5px;
+}
+/*Report Page*/
+.drop_dwn .form-group{
+  position: relative;
+}
+.drop_dwn label{
+  position: absolute;
+  background: #fff;
+  left: 9%;
+  top: -9px;
+  padding: 0 10px;
+  font-weight: 600;
+  color: #a4a4a4;
+}
+.drop_dwn  .form-control{
+  height:45px;
+  color: #a4a4a4;
+}
+.report .white_box{
+  box-shadow: 0 0 1px rgba(0,0,0,.125), 0 1px 3px rgba(0,0,0,.2);
+  border:0;
+  padding:25px;
+}
+.report .btn-main{
+  height: 45px;
+}
+.report .btn{
+  line-height: 1.9;
+  font-weight: 600;
+  border-radius:5px;
+}
+select > option selected{
+  border:0!important;
+}
+
 @media(min-width: 992px){
 .sidebar-mini.sidebar-collapse .main-sidebar, .sidebar-mini.sidebar-collapse .main-sidebar::before{
   width: 0px!important;
